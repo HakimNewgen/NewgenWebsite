@@ -47,8 +47,10 @@ function CloudService() {
                             
                             
                         </div>
-
-                        <Image className="rounded-xl  ml-60 " src="https://i.ibb.co/G7q93Hs/Capture.png" height={400} width={500} alt="" />
+                         <div className="hidden lg:block">
+                        <Image className="rounded-xl  ml-60  " src="https://i.ibb.co/G7q93Hs/Capture.png" height={400} width={500} alt="" />
+                           
+                         </div>
                     </div>
                 </div>
                 <div className={styles.scroll_area}>
@@ -64,7 +66,12 @@ function CloudService() {
 
                         </div>
 
+                        <div className="hidden lg:block">
                         <Image className="rounded-xl  ml-60 h h-3/4 " src="https://i.ibb.co/TkCC834/Capture.png" width={600} height={900} alt="" />
+
+                          
+                        </div>
+                         
                     </div>
                 </div>
                 <div className={styles.scroll_area}>
@@ -77,11 +84,15 @@ function CloudService() {
 
                         </div>
 
+                        <div className="hidden lg:block">
                         <Image className="rounded-xl  ml-60 " src="https://i.ibb.co/zP25k5n/visuel.png" height={500} width={500} alt="" />
+                          
+                        </div>
+
                     </div>
                 </div>
             </div>
-
+            <br /><br />
              <Latest />
             <Footer />
 
