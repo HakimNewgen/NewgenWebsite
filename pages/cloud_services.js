@@ -18,7 +18,7 @@ import Head from 'next/head'
 
              <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >On vous aide à avoir des outils à la hauteur de vos ambitions</h3>
 
-             <div className=" w-5/12 lg:flex lg:10/12   mx-auto  justify-around   mb-72 ">
+             <div className=" w-5/12 lg:flex  lg:w-11/12   mx-auto  justify-between  mb-72 ">
                  <div className="w-72 text-center  ">
                    <Bounce duration={2000}  >
                          <Image className=" w-24  ml-24 mb-24  " height={100}  width={100} src="https://i.ibb.co/N67nxs5/Capture.png" />
