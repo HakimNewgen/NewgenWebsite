@@ -67,9 +67,9 @@ function company() {
 
             <div className="grid place-items-center  md:w-full  mb-28 mx-auto ">
                <div className="md:flex mx-auto mb-20 md:w-full  lg:w-8/12  w-8/12 justify-between ">
-                    <TeamCard name="Hajar Etakafi" post=" responsable du développement commercial" desc="Hajar Etakafi, passionnée par les ventes et par une négociation naturelle. Compétente dans la vente de logiciels, la gestion des ventes, les opérations de marketing et la constitution d'équipes.
+                    <TeamCard name="Hajar Etakafi" face="https://web.facebook.com/profile.php?id=100008660492501" linkind="https://www.linkedin.com/in/hajar-etakafi-36ba161b0/" post=" responsable du développement commercial" desc="Hajar Etakafi, passionnée par les ventes et par une négociation naturelle. Compétente dans la vente de logiciels, la gestion des ventes, les opérations de marketing et la constitution d'équipes.
                     Elle dirige la croissance de nos canaux de commercialisation."  image="https://i.ibb.co/jTgF5Ng/HAJAR-PHOTO.jpg"/>
-                    <TeamCard name="Abdelhakim Jebabra"  image="https://ajebabra.netlify.app/Me.jpg"  post="Web Developer" desc="Étudiant en informatique à l'école Mohammadia pour ingénieurs. Je suis développeur web et mes technologies préférées sont React et Express Js !" />
+                    <TeamCard name="Abdelhakim Jebabra" face="https://web.facebook.com/hakim.jebabra/" linkind="https://www.linkedin.com/in/abdelhakim-jebabra-63bb0618b/" image="https://ajebabra.netlify.app/Me.jpg"  post="Web Developer" desc="Étudiant en informatique à l'école Mohammadia pour ingénieurs. Je suis développeur web et mes technologies préférées sont React et Express Js !" />
                    
                </div>
                
