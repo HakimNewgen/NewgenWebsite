@@ -10,7 +10,7 @@ function TeamCard({desc , post,name , image}) {
                     <div >
                         <div className={styles.team}>
                             <div className={styles.photo}>
-                                <Image src="https://i.ibb.co/jTgF5Ng/HAJAR-PHOTO.jpg"   height={100} width={100} alt='Libby' />
+                                <Image src={image}   height={100} width={100} alt='Libby' />
                             </div>
 
                             <div className={styles.profile_txt}>
