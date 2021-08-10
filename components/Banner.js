@@ -83,7 +83,7 @@ function Banner({source , size , text , text1, font , navbar , color , height , 
     return (
 
      
-        <div className={`${clip}  relative bottom-20  bg-no-repeat ${height} w-screen    z-0 bg-opacity-0 mx-auto`}
+        <div className={`${clip}  relative bottom-20  bg-no-repeat ${height} w-screen     bg-opacity-0 mx-auto`}
             style={{ background: `url("${source}") `, backgroundSize: `${size}` , backgroundRepeat:'no-repeat' , }}>
         
        
