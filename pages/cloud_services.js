@@ -5,13 +5,17 @@ import Image from "next/dist/client/image";
 import Bounce from 'react-reveal/Bounce';
 import CloudService from "../components/CloudService";
 import Head from 'next/head'
+import Navbar from "../components/Navbar";
+
  function cloud_services() {
      return (
-         <div>
+         <div className="home" >
          <Head>
     <title>Newgen Intelligence</title>
     <link rel="icon" href="https://i.ibb.co/YZv3X6F/1613491158332.jpg" />
   </Head>
+
+  <Navbar  />
              <Banner source="https://i.ibb.co/5rYCQ9M/Cloud-banner.png" font="text-3xl" color="text-white" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" size="cover"  />
 
             { /*<Banner source="https://i.ibb.co/SsC4v1B/cloud-banner1.png" navbar="blue-900" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" font={"text-3xl"} size="cover" size="cover" color={"text-blue-900"} />*/}

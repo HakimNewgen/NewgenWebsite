@@ -9,17 +9,24 @@ import Blog from "../components/Blog";
 import Latest from "../components/Latest";
 import Footer from "../components/Footer";
 import Fade from 'react-reveal/Fade';
+import Navbar from "../components/Navbar";
 
 import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div  className="mx-auto ">
+    <div  className=" mx-auto ">
     <Head>
     <title>Newgen Intelligence</title>
+    
+      
+    
+    
     <link rel="icon" href="https://i.ibb.co/YZv3X6F/1613491158332.jpg" />
   </Head>
     
+
+     <Navbar  />
       <Banner source="https://i.ibb.co/5WR8Nnm/3-D-earth-graphic-symbolizing-global-trade-vector-illustration.jpg" text="NEW VISION " text1="NEW FUTURE" font={" lg:text-6xl text-4xl"} size="cover" color={"text-white"} height="lg:h-xxxl" clip="banner" />
 
      

@@ -39,7 +39,7 @@ const Slider = () => {
                         <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Apps & Platforms</h3>
 
                         <div className="  mr-20 md:flex">
-                            <p className="  hidden md:flex relative top-12">  Nous développons et déployons des applications métiers personnalisées <br /> pour permettre à nos clients de piloter leurs activités
+                            <p className="  text-gray-500 hidden md:flex relative top-12">  Nous développons et déployons des applications métiers personnalisées <br /> pour permettre à nos clients de piloter leurs activités
                             </p>
 
                             <Image src="https://i.ibb.co/6H2hyDx/undraw-web-devices-ad58-1.png" width={600} height={400}/>
@@ -49,7 +49,7 @@ const Slider = () => {
 
                          
                       </div>
-                    <button className="flex  border-2 border-blue-900 px-4 relative    left-36  mt-2  py-2 text-blue-900 font-bold  rounded-lg hover:bg-blue-900 hover:text-white hover:border-blue-900">Voir Plus
+                    <button className="hidden md:flex border-2 border-blue-900 px-4 relative    left-36  mt-2  py-2 text-blue-900 font-bold  rounded-lg hover:bg-blue-900 hover:text-white hover:border-blue-900">Voir Plus
                         <ChevronRightIcon className="w-5 ml-3 mt-1" />
                     </button>
                 </SwiperSlide>
@@ -59,7 +59,7 @@ const Slider = () => {
                         <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Cloud services</h3>
 
                         <div className="mr-20 md:flex">
-                            <p className="hidden md:flex relative top-12"> Nous construisons- en collaboration avec le  service IT de <br /> nos clients  la stratégie de  migration vers le cloud.  ainsi que <br />les réductions de coûts associés
+                            <p className=" text-gray-500 hidden md:flex relative top-12"> Nous construisons- en collaboration avec le  service IT de <br /> nos clients  la stratégie de  migration vers le cloud.  ainsi que <br />les réductions de coûts associés
                             </p>
 
                             
@@ -71,7 +71,7 @@ const Slider = () => {
 
 
                     </div>
-                    <button className="flex  border-2 border-blue-900 px-4 relative   left-36 mt-2  py-2 text-blue-900 font-bold  rounded-lg hover:bg-blue-900 hover:text-white hover:border-blue-900">Voir Plus
+                    <button className="hidden md:flex  border-2 border-blue-900 px-4 relative   left-36 mt-2  py-2 text-blue-900 font-bold  rounded-lg hover:bg-blue-900 hover:text-white hover:border-blue-900">Voir Plus
                         <ChevronRightIcon className="w-5 ml-3 mt-1" />
                     </button>
                 </SwiperSlide>
@@ -80,7 +80,7 @@ const Slider = () => {
                         <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Digital marketing</h3>
 
                         <div className="mr-20 md:flex">
-                            <p className="hidden md:flex relative top-12">  Nous construisons des stratégies marketing uniques  en actionnant <br /> les leviers technologiques  afin d’augmenter la notoriété digitale<br /> de nos clients
+                            <p className=" text-gray-500 hidden md:flex relative top-12">  Nous construisons des stratégies marketing uniques  en actionnant <br /> les leviers technologiques  afin d’augmenter la notoriété digitale<br /> de nos clients
                             </p>
 
                          
@@ -104,7 +104,7 @@ const Slider = () => {
                         <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Data Analytics</h3>
 
                         <div className="mr-20 md:flex md:justify-between">
-                            <p className="hidden md:flex  relative  top-12"> Nous accompagnons  nos clients à travers toutes ses étapes qui <br /> lui permettront d’être une Data Driven Company </p>
+                            <p className=" text-gray-500 hidden md:flex  relative  top-12"> Nous accompagnons  nos clients à travers toutes ses étapes qui <br /> lui permettront d’être une Data Driven Company </p>
 
                                 <Image  src="https://i.ibb.co/rcxPjD7/Power-BI-Dash.png" width={500} height={300} />
                            
@@ -113,7 +113,7 @@ const Slider = () => {
 
 
                     </div>
-                    <button className="flex  border-2 border-blue-900 px-4 relative   left-36 mt-2   py-2 text-blue-900 font-bold  rounded-lg hover:bg-blue-900 hover:text-white hover:border-blue-900">Voir Plus
+                    <button className="  hidden md:flex border-2 border-blue-900 px-4 relative   left-36 mt-2   py-2 text-blue-900 font-bold  rounded-lg hover:bg-blue-900 hover:text-white hover:border-blue-900">Voir Plus
                         <ChevronRightIcon className="w-5 ml-3 mt-1" />
                     </button>
                 </SwiperSlide>

@@ -24,7 +24,10 @@ module.exports = {
                 xl: '650px',
                 xxl: '780px',
                 xxxl: '1200px',
-            }
+            },inset: {
+                '22': '85px',
+               
+              }
         },
     },
     variants: {

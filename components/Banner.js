@@ -83,10 +83,10 @@ function Banner({source , size , text , text1, font , navbar , color , height , 
     return (
 
      
-        <div className={`${clip} bg-center bg-no-repeat ${height} w-screen    z-0 bg-opacity-0 mx-auto`}
+        <div className={`${clip}  relative bottom-20  bg-no-repeat ${height} w-screen    z-0 bg-opacity-0 mx-auto`}
             style={{ background: `url("${source}") `, backgroundSize: `${size}` , backgroundRepeat:'no-repeat' , }}>
         
-            <Navbar background={navbar} />
+       
         
            
              <div className=" grid w-10/12  place-items-center py-5  xl:ml-20 xl:text-left ">

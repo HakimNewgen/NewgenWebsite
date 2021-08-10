@@ -96,6 +96,8 @@ clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
   color: white;
   text-decoration: none;
   margin-top: 5px;
+  margin-left: 5px;
+
   
 }
 
@@ -112,6 +114,13 @@ clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
   color: #ae5fce;
 }
 
+@media screen and (max-width: 720px) {
+  .nav-links{
+    width: 60%;
+  }
+  
+}
+
 @media screen and (max-width: 768px) {
   .line {
     width: 30px;
@@ -119,6 +128,8 @@ clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
     background: white;
     margin: 5px;
   }
+
+  
   nav {
     position: relative;
   }
@@ -126,7 +137,7 @@ clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
   .hamburger {
     position: absolute;
     cursor: pointer;
-    right: -20%;
+    right: 2%;
     top: 50%;
     transform: translate(-5%, -50%);
     z-index: 102;

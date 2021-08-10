@@ -10,13 +10,17 @@ function TeamCard({desc , post,name , image}) {
                     <div >
                         <div className={styles.team}>
                             <div className={styles.photo}>
-                                <Image src="https://i.ibb.co/jTgF5Ng/HAJAR-PHOTO.jpg"   height={100} width={100} alt='Libby' />
+                                <Image src={image}   height={100} width={100} alt='Libby' />
                             </div>
 
                             <div className={styles.profile_txt}>
                                 <h1 className={styles.title}>{name}</h1>
                                 <h1 className="text-gray text-lg  font-semibold ">{post}</h1>
+
+                                 <div className="  px-5 hidden lg:block ">
                                 <span className={styles.position}>{desc}</span>
+                                   
+                                 </div>
                             </div>
                             <ul className={styles.social_icons}>
                                 <li>   <a href="https://web.facebook.com/profile.php?id=100008660492501" ><RiFacebookFill className="w-6 h-6" /></a>  </li>

@@ -12,14 +12,18 @@ import Latest from "../components/Latest";
 import Footer from "../components/Footer";
 import Head from 'next/head'
 import Image  from "next/image";
+import Navbar from "../components/Navbar";
 
 function apps_platforms() {
     return (
         <div>
         <Head>
     <title>Newgen Intelligence</title>
+    
     <link rel="icon" href="https://i.ibb.co/YZv3X6F/1613491158332.jpg" />
   </Head>
+
+  <Navbar  />
             <Banner source="https://i.ibb.co/Nn2xn0F/Application-Development-Banner-code.png" text="Solutions numériques avec une approche de développement centrée sur lutilisateur" font={"text-3xl"} size="cover"  color={"text-white"} />
 
 

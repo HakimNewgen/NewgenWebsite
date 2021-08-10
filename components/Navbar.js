@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-import React, { useRef , useState } from 'react'
+import React, { useRef , useState , useEffect } from 'react'
 
 
 import Fade from 'react-reveal/Fade';
@@ -11,13 +11,27 @@ import { CgClose  } from 'react-icons/cg';
 function Navbar({background , option}) {
 
     const navlinks = useRef(null)
-
+    const [bord, setbord] = useState("block")
     const [navOpened, setnavOpened] = useState(false)
     const [display, setdisplay] = useState(false)
+    const [navbackground, handlbackground] = useState(background)
+
+  
  
 
-    const navLinks = ["Acceuil", "Produits", "A propos", "Blog"];
+    const navLinks = ["Accueil", "Produits", "A propos", "Blog"];
     const links= ["/","apps_platforms","company","/"]
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 100) {
+            handlbackground("blue-900");
+          } else { handlbackground(background);
+              setbord('hidden') 
+        }
+        });
+       
+      }, []);
 
     const openNav = ()=>{
         navlinks.current.classList.toggle("open");
@@ -25,15 +39,42 @@ function Navbar({background , option}) {
        setdisplay(!display)
     }
     return (
-        <div>
+        <div className="sticky  z-40 top-0" >
             
 
            
-            <div className={`bg-${background} `}>
+            <div className={`bg-${navbackground}   h-[70px] `}>
             
                 <div className="container mx-auto ">
-                    <nav className="flex justify-around w-8/12 mx-auto   " >
-                        <Image src="https://i.ibb.co/tDKR0TV/newgen-Logo.png"   width={200} height={50} />
+                    <nav className="flex md:justify-around justify-between lg:w-10/12  mx-auto   " >
+                     
+                        {navbackground=="blue-900"?(
+                            
+                            
+
+                            <>
+                            <div className=" relative  md:left-22 ">
+                             <Image src="https://i.ibb.co/yX3RWCB/newgen-Logo.png"   width={58} height={65} />
+                              
+                            </div>
+                       
+                             
+                       </>
+                           
+
+                        ):(
+                            <>
+                            <Image src="https://i.ibb.co/tDKR0TV/newgen-Logo.png"   width={200} height={50} />
+                           
+                             
+                            </>
+
+
+                        )
+
+                        }
+                     
+            
                        
                         <div className="hamburger" onClick={openNav}>
                           
@@ -56,7 +97,7 @@ function Navbar({background , option}) {
                         </div>
 
                         
-                        <ul className="nav-links py-5 text-white" ref={navlinks}>
+                        <ul className="nav-links py-5    text-white" ref={navlinks}>
                             {navOpened
                                 ? navLinks.map((nl, index) => {
                                     return (
@@ -83,7 +124,7 @@ function Navbar({background , option}) {
                                     return (
                                         <Link href={links[index]} key={index} >
                                         <li
-                                            className="cursor-pointer "
+                                            className="cursor-pointer ml-5 "
                                         >
                                            {nl}
                                         </li>
@@ -95,11 +136,12 @@ function Navbar({background , option}) {
                            
                         </ul>
                     </nav>
+                    <hr className={` relative  w-11/12 mx-auto  border-${navbackground}  `}/>
                 </div>
             </div>
 
           
-            <hr className=" w-9/12 mx-auto "/>
+           
             
         </div>
     )
