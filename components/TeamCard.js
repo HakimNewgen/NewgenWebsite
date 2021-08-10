@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styles from "../styles/Team.module.scss";
 import { RiFacebookFill, RiTwitterFill, RiLinkedinFill } from 'react-icons/ri';
-function TeamCard({desc , post,name , image}) {
+function TeamCard({desc , post,name , image , face , linkind}) {
     return (
          
             <div className={styles.container}>
@@ -23,9 +23,9 @@ function TeamCard({desc , post,name , image}) {
                                  </div>
                             </div>
                             <ul className={styles.social_icons}>
-                                <li>   <a href="https://web.facebook.com/profile.php?id=100008660492501" ><RiFacebookFill className="w-6 h-6" /></a>  </li>
+                                <li>   <a href={face} ><RiFacebookFill className="w-6 h-6" /></a>  </li>
                                 
-                                <li> <a href="https://www.linkedin.com/in/hajar-etakafi-36ba161b0/"><RiLinkedinFill className="w-5  h-5" /></a> </li>
+                                <li> <a href={linkind}><RiLinkedinFill className="w-5  h-5" /></a> </li>
 
                             </ul>
                         </div>

@@ -22,7 +22,7 @@ import Navbar from "../components/Navbar";
 
              <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >On vous aide à avoir des outils à la hauteur de vos ambitions</h3>
 
-             <div className="flex  w-10/12 mx-auto  justify-around   mb-72 ">
+             <div className=" w-5/12 lg:flex  lg:w-11/12   mx-auto  justify-between  mb-72 ">
                  <div className="w-72 text-center  ">
                    <Bounce duration={2000}  >
                          <Image className=" w-24  ml-24 mb-24  " height={100}  width={100} src="https://i.ibb.co/N67nxs5/Capture.png" />
@@ -33,7 +33,7 @@ import Navbar from "../components/Navbar";
                      
                  </div>
 
-                 <div className="w-72 text-center ">
+                 <div className="w-72 text-center  mt-24 lg:mt-0 ">
 
                      <Bounce duration={2000} delay={500}  >
                          <Image src="https://i.ibb.co/4gqK8Yv/Capture.png" className=" w-24  ml-24 mb-12  " height={100}  width={100} />
@@ -45,7 +45,7 @@ import Navbar from "../components/Navbar";
 
                  </div>
 
-                 <div className="w-72 text-center ">
+                 <div className="w-72 text-center  mt-24 lg:mt-0">
 
                      <Bounce duration={2000} delay={1000}  >
                          <Image src="https://i.ibb.co/c8mrY3L/Capture.png" className=" w-24  ml-24 mb-14  " height={100} width={100} alt="" />
@@ -69,16 +69,16 @@ import Navbar from "../components/Navbar";
                     <div className="flex">
                        <div className="">
                          <h3 className="text-black font-semibold text-xl ">Communiquez, créez et collaborez en équipe</h3>
-                         <p className="text-gray-500 text-md w-6/12 mt-14">Newgen  offre un éventail complet de services associés à votre futur environnement Google Workspace: Migration, déploiement, gestion du changement, formation et support technique, </p>
+                         <p className="text-gray-500 text-md w-12/12 lg:w-6/12 mt-14">Newgen  offre un éventail complet de services associés à votre futur environnement Google Workspace: Migration, déploiement, gestion du changement, formation et support technique, </p>
 
                          <div className="flex mt-16 z-40">
                              <button className="bg-blue-900 border-2 px-4  py-2 text-white  mr-5 rounded-xl hover:bg-transparent hover:text-blue-900 hover:border-blue-900 ">Commencer</button>
-                             <button className="border-2 border-blue-900 px-4  py-2 text-blue-900 font-bold  rounded-xl   ">Voir Plus</button>
+     
                          </div>
 
                        </div>
-                       <div className="">
-                       <Bounce right duration={2000} >
+                       <div className="hidden lg:block ">
+                       <Bounce right duration={2000}  >
                              <Image src="https://i.ibb.co/d7hjhZz/Capture.png" width={300} height={50} />
                              <br />
                              <Image src="https://i.ibb.co/VY3HFYw/Capture.png" width={300} height={500} />
@@ -91,18 +91,18 @@ import Navbar from "../components/Navbar";
 
                  <hr className=" w-11/12 mx-auto text-gray-600 mb-44 mt-16 " />
 
-                 <div className="flex">
-                     <div className="">
+                 <div className="flex mt-20 mb-44 ">
+                     <div className=" ">
                          <h3 className="text-black font-semibold text-xl ">La migration vers AWS pourrait révolutionner votre entreprise</h3>
-                         <p className="text-gray-500 text-md w-6/12 mt-14">Newgen vous aident à poser des bases solides pour une migration réussie vers le cloud AWS.  Nous passons en revue  vos processus et votre technologie et mettons en évidence les changements que vous devez apporter pour être prêt pour une migration vers le cloud. </p>
+                         <p className="text-gray-500 text-md w-12/12 lg:w-6/12 mt-14">Newgen vous aident à poser des bases solides pour une migration réussie vers le cloud AWS.  Nous passons en revue  vos processus et votre technologie et mettons en évidence les changements que vous devez apporter pour être prêt pour une migration vers le cloud. </p>
 
                          <div className="flex mt-16 z-40">
                              <button className="bg-blue-900 border-2 px-4  py-2 text-white  mr-5 rounded-xl hover:bg-transparent hover:text-blue-900 hover:border-blue-900 ">Commencer</button>
-                             <button className="border-2 border-blue-900 px-4  py-2 text-blue-900 font-bold  rounded-xl   ">Voir Plus</button>
+
                          </div>
 
                      </div>
-                     <div className="">
+                     <div className="hidden lg:block">
 
                      <Bounce right duration={2000} >
                              <Image src="https://i.ibb.co/pzTtqGH/t-l-charger-4.png" width={800} height={500} />

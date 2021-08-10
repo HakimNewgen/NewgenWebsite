@@ -93,7 +93,7 @@ function Form({service}) {
             >
                 <Bounce left duration={2000} delay={100}>
                     <div className="flex w-full justify-between px-2">
-                        <h2 className="text-3xl  text-blue-900 font-bold ml-10 mt-3" > About you </h2>
+                        <h2 className="text-3xl  text-blue-900 font-bold ml-10 mt-3" > A propos de vous ? </h2>
                         <AiOutlineCloseCircle onClick={() => { setIsOpen1(false) }} className="text-blue-900 text-4xl cursor-pointer " />
                     </div>
 
