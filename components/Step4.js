@@ -14,7 +14,10 @@ import MultiSelect from './MultiSelect'
 import Fade from 'react-reveal/Fade';
 
 import styles from "../styles/Form.module.scss";
-import { set } from "lodash";
+
+import { IoArrowBackCircleOutline } from 'react-icons/io5';
+import { IoArrowForwardCircleOutline } from 'react-icons/io5';
+
 
 const Step4 = ({ setForm, formData, navigation , service }) => {
     
@@ -104,11 +107,19 @@ const Step4 = ({ setForm, formData, navigation , service }) => {
                             <h3 className="font-bold text-white text-4xl mr-1 " >4/7</h3>
                         </div>
 
+
+
+                        <div className="flex justify-around w-full text-blue-900">
+                        <IoArrowBackCircleOutline onClick={previous}  className=" text-blue-600 hover:text-blue-900 text-5xl mb-5 ml-5 cursor-pointer " />
                         <h3 className="md:text-3xl text-blue-900    font-extrabold w-7/12 relative lg:bottom-24 mx-auto" > Combien de pages  Contient votre site ?</h3>
 
+                        <IoArrowForwardCircleOutline onClick={movOn}  className=" text-blue-600 hover:text-blue-900 text-5xl mb-5 mr-5 cursor-pointer " />
+                         
+                            
+                        </div>
 
 
-                        <div className="  w-10/12 flex mx-auto  justify-around  top-32 relative  lg:top-14">
+                        <div className=" mb-52 lg:mb-16  w-10/12 flex mx-auto  justify-around  top-32 relative  lg:top-14">
                             <div className={styles.container}>
                                 <span className={styles.prev} onClick={dec} ></span>
                                 <span className={styles.next} onClick={inc}></span>
@@ -125,15 +136,7 @@ const Step4 = ({ setForm, formData, navigation , service }) => {
 
 
 
-                        <div className="flex justify-around mx-auto w-8/12 mt-44 mb-10   ">
-
-                            <button className="bg-blue-900 border-2 md:6/12 lg:w-4/12 px-10 w-11/12  py-2 text-white  mr-5  rounded-3xl hover:bg-transparent hover:text-blue-900 hover:border-blue-900 flex justify-around transition ease-out duration-500" onClick={movOn}>
-                                <h3 className="font-bold  text-xl     " >   Next Step </h3>
-                                <ChevronRightIcon className=" h-5 w-5 ml-3 mt-1 font-bold text-3xl " />
-
-
-                            </button>
-                        </div>
+                      
                     </>
                 ):(
 

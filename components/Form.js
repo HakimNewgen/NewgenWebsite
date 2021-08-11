@@ -68,11 +68,11 @@ function Form({service}) {
         },
     };
     return (
-        <div className=" xxxl w-10/12 rounded-lg lg:h-xxl  bg-blue-900 p-3 " >
+        <div className="  w-screen rounded-lg lg:h-xxl  bg-blue-900  " >
 
 
 
-            <h3 className=" text-white text-3xl font-bold mx-auto w-5/12 mt-5   ">Calculez votre budget  en 7 clics</h3>
+            <h3 className=" text-white text-xl font-bold mx-auto w-5/12 mt-5   ">Calculez votre budget  en 7 clics</h3>
           
                 <div className=" bg-white rounded-lg h-4/5 mb-2 mt-14  w-11/12 mx-auto   ">
                     {

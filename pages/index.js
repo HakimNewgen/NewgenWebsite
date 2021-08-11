@@ -27,20 +27,29 @@ export default function Home() {
     
 
      <Navbar  />
+
+      
       <Banner source="https://i.ibb.co/5WR8Nnm/3-D-earth-graphic-symbolizing-global-trade-vector-illustration.jpg" text="NEW VISION " text1="NEW FUTURE" font={" lg:text-6xl text-4xl"} size="cover" color={"text-white"} height="lg:h-xxxl" clip="banner" />
 
      
     
-
+      <div id="values">
              <Values />
+      </div>
+            
               <br />
       <br />
+         <div id="service">
+         <Service />
+         </div>
       
-        <Service />
         <Slider />
         <Partner />
         
+        <div className="" id="blogs">
         <Blog/>
+          
+        </div>
         <br />
 
         <Latest />

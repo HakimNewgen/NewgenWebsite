@@ -22,7 +22,7 @@ const Review = ({ setForm, formData, navigation }) => {
     const sendData = ()=>{
         axios(
             {
-                url: "http://localhost:5000/answers/client/save",
+                url: "https://newgen-admin.herokuapp.com/answers/client/save",
                 method: "POST",
                 data: formData
             }
@@ -76,8 +76,8 @@ const Review = ({ setForm, formData, navigation }) => {
             </div>
            
             
-            <div className="w-3/12 mx-auto">
-                <button onClick={sendData} className="bg-blue-900 border-2 px-10  mx-auto w-full py-2 text-white  mr-5 rounded-xl hover:bg-transparent hover:text-blue-900 hover:border-blue-900" >Submit</button>
+            <div className=" md:w-7/12 w-10/12 mx-auto">
+                <button onClick={sendData} className="bg-blue-900 border-2 px-10  mx-auto w-full py-2 text-white  mr-5 rounded-xl hover:bg-transparent hover:text-blue-900 hover:border-blue-900" >Envoyer votre demande</button>
             </div>
         </div>
     );

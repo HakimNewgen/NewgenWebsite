@@ -8,7 +8,7 @@ import {
 function BlogCard({name , title , description  , image}) {
     return (
         <div className={name}>
-            <div className=" h-72 w-full rounded-t-2xl  " style={{ background: `url(${image})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>  </div>
+            <div className=" h-72 w-full rounded-t-2xl  " style={{ background: `url(http://localhost:5000/public/uploads/images/${image})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>  </div>
 
             <h5 className="font-bold text-2xl group-hover:group-hover:text-blue-900 p-5  ">{title}</h5>
 

@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-      <meta name="viewport" content="width=device-width, initial-scale=0.7, user-scalable=no"/>
+      <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no"/>
       </Head>
       <Component {...pageProps} />
     </>

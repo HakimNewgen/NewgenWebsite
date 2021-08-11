@@ -80,10 +80,22 @@ function Banner({source , size , text , text1, font , navbar , color , height , 
             borderRadius :'40px'
         },
     };
+
+
+    const handleClick = (e) => {
+        e.preventDefault()
+        const target = e.target.getAttribute('href')
+        const location = document.querySelector(target).offsetTop
+    
+        window.scrollTo({
+          left: 0,
+          top: location - 64,
+        })
+      }
     return (
 
      
-        <div className={`${clip}  relative bottom-20  bg-no-repeat ${height} w-screen    z-0 bg-opacity-0 mx-auto`}
+        <div className={`${clip}  relative bottom-20  bg-no-repeat ${height} w-screen     bg-opacity-0 mx-auto`}
             style={{ background: `url("${source}") `, backgroundSize: `${size}` , backgroundRepeat:'no-repeat' , }}>
         
        
@@ -102,7 +114,7 @@ function Banner({source , size , text , text1, font , navbar , color , height , 
 
 
             <div className="flex ml-20 mt-40 z-40 xl:ml-44">
-                <button className="bg-white border-2 px-4  py-2 text-blue-900 font-bold mr-5 rounded-lg hover:bg-transparent hover:text-white hover:border-white ">COMMENCER</button>
+                <a href='#service' className="bg-white border-2 px-4  py-2 text-blue-900 font-bold mr-5 rounded-lg hover:bg-transparent hover:text-white hover:border-white " onClick={handleClick} >COMMENCER</a>
 
             
                 <button onClick={openModal2} className="border-2 border-white px-4  py-2 text-white font-bold  rounded-lg  hover:bg-blue-900 ">Demander un devis</button>
@@ -111,7 +123,7 @@ function Banner({source , size , text , text1, font , navbar , color , height , 
             </div>
 
             <div className="w-screen  grid place-items-center text-5xl mt-40 animate-bounce text-white xl:relative xl:bottom-20">
-               <AiOutlineDown className={`${color}`} />
+               <AiOutlineDown className={`${color}`} onClick={handleClick} href="#values" />
               
             </div>
         
@@ -180,6 +192,8 @@ function Banner({source , size , text , text1, font , navbar , color , height , 
 
 
             </Modal>
+
+            
 
             
 

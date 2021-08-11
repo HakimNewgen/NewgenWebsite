@@ -10,9 +10,12 @@ function company() {
         <div>
         <Head>
     <title>Newgen Intelligence</title>
+      
     <link rel="icon" href="https://i.ibb.co/YZv3X6F/1613491158332.jpg" />
   </Head>
 
+
+ 
            <Navbar  />
             <Banner source="https://i.ibb.co/HBRghmK/dataiku-site-dataiku-compagny-1920x1080.png"  text="Qui Somme nous?" font={"text-3xl"}  size="cover" color={"text-blue-900"} />
 

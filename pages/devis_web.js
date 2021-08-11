@@ -6,9 +6,11 @@ import Head from 'next/head'
 
 function devis() {
     return (
-        <div>
+        <div className="w-screen" >
         <Head>
     <title>Newgen Intelligence</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no"/>
+
     <link rel="icon" href="https://i.ibb.co/YZv3X6F/1613491158332.jpg" />
   </Head>
         <div className=" bg-center bg-no-repeat   w-screen  z-0 bg-opacity-0 mx-auto text-center  "
@@ -30,9 +32,9 @@ function devis() {
 
        
 
-        </div>
+        </div  >
          
-          <div className=" grid  place-items-center   p-5  relative bottom-44 mt-24   w-11/12 mx-auto  h-screen ">
+          <div className=" grid  place-items-center     relative bottom-44 mt-24   w-screen mx-auto  h-screen ">
                 <Form service="web" />
           </div>
           

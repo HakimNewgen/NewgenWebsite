@@ -16,11 +16,31 @@ function Navbar({background , option}) {
     const [display, setdisplay] = useState(false)
     const [navbackground, handlbackground] = useState(background)
 
+    const handleClick = (e) => {
+        
+        e.preventDefault()
+        const target = e.target.getAttribute('href')
+        if(target=="#blogs"){
+          
+        const location = document.querySelector(target).offsetTop
+        
+    
+        window.scrollTo({
+          left: 0,
+          top: location - 64,
+        })
+
+        setnavOpened(!navOpened)
+       setdisplay(!display)
+       
+    }
+        
+      }
   
  
 
     const navLinks = ["Accueil", "Produits", "A propos", "Blog"];
-    const links= ["/","apps_platforms","company","/"]
+    const links= ["/","apps_platforms","company","#blogs"]
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -53,7 +73,7 @@ function Navbar({background , option}) {
                             
 
                             <>
-                            <div className=" relative  md:left-22 ">
+                            <div className=" relative left-5  md:left-22 ">
                              <Image src="https://i.ibb.co/yX3RWCB/newgen-Logo.png"   width={58} height={65} />
                               
                             </div>
@@ -101,11 +121,11 @@ function Navbar({background , option}) {
                             {navOpened
                                 ? navLinks.map((nl, index) => {
                                     return (
-                                        <Link href={links[index]} key={index}>
+                                        <Link href={links[index]} key={index}  onClick={handleClick}  >
                                       
                                             <li
                                                 className="cursor-pointer   text-2xl hover: transition 10ms hover:text-3xl"
-                                            >
+                                           >
 
                                                 <Fade left duration={2000} delay={index * 500} >
 
@@ -122,10 +142,10 @@ function Navbar({background , option}) {
                                 })
                                 : navLinks.map((nl, index) => {
                                     return (
-                                        <Link href={links[index]} key={index} >
+                                        <Link href={links[index]} key={index}  onClick={handleClick} >
                                         <li
                                             className="cursor-pointer ml-5 "
-                                        >
+                                            >
                                            {nl}
                                         </li>
 
