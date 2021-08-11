@@ -10,7 +10,7 @@ module.exports = withSass({
 module.exports = {
   reactStrictMode: false,
   images: {
-    domains: ["i.ibb.co", "img.icons8.com", "www.blue-search.com",   "ajebabra.netlify.app","kafkadesk.org", "localhost", "svgur.com"],
+    domains: ["i.ibb.co", "img.icons8.com", "www.blue-search.com", "newgen-admin.herokuapp.com" , "ajebabra.netlify.app","kafkadesk.org", "localhost", "svgur.com"],
   },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
