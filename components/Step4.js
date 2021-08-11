@@ -103,7 +103,7 @@ const Step4 = ({ setForm, formData, navigation , service }) => {
             {
                 service == "web" ? (
                     <>
-                    <div className=" bg-blue-900 mx-auto relative bottom-10 grid place-items-center  " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
+                    <div className=" bg-blue-900 mx-auto relative bottom-20  grid place-items-center  " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
                     <h3 className="font-bold text-white text-4xl mr-1 " >4/7</h3>
                 </div>
 
