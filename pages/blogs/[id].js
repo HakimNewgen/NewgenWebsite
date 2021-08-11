@@ -6,7 +6,7 @@ import Markdown from 'react-markdown'
 import styles from "../../styles/Blog.module.css";
 
 export const getStaticPaths = async () => {
-    const res = await fetch('http://localhost:5000/articles/data');
+    const res = await fetch('https://newgen-admin.herokuapp.com/articles/data');
     const data = await res.json();
 
     // map data to an array of path objects with params (id)
@@ -53,7 +53,9 @@ const Details = ({article})=>{
 
                 <div className={styles.blog_content}>
                   <br/> <br/>
-                    <Markdown children={article.markdown} />
+                    <Markdown >
+                   { article.markdown}
+                    </Markdown>
               </div>
                     
               

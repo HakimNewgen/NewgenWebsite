@@ -8,11 +8,7 @@ import Navbar from "../components/Navbar"
 function company() {
     return (
         <div>
-        <Head>
-    <title>Newgen Intelligence</title>
       
-    <link rel="icon" href="https://i.ibb.co/YZv3X6F/1613491158332.jpg" />
-  </Head>
 
 
  

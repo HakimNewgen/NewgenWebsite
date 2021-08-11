@@ -20,7 +20,7 @@ function Blog() {
 
     useEffect(() => {
         const loadArticles = () => {
-            axios.get('http://localhost:5000/articles/data').then((res) => {
+            axios.get('https://newgen-admin.herokuapp.com/articles/data').then((res) => {
                
                // console.log(res.data[0].title);
                 const mydata = [];
@@ -52,7 +52,7 @@ function Blog() {
               <div className={` lg:flex mx-auto ml-14 w-full `}>
                 {
                     articles.slice(0,2).map((article)=>(
-                        <Link href={`/blogs/${article._id}`}>
+                        <Link href={`/blogs/${article._id}`} key={article._id} >
 
                             <div className="w-full">
 
@@ -78,7 +78,7 @@ function Blog() {
 
                 {
                     articles.slice(2, 5).map((article) => (
-                        <Link href={`/blogs/${article._id}`}>
+                        <Link href={`/blogs/${article._id}`}  key={article._id}>
 
                             <div className=" w-full">
 
