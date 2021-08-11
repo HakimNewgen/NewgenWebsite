@@ -142,22 +142,30 @@ const Step4 = ({ setForm, formData, navigation , service }) => {
                 ):(
 
                     <>
-                            <div className=" bg-blue-900 mx-auto relative bottom-20 grid place-items-center  " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
-                                <h3 className="font-bold text-white text-4xl mr-1 " >4/7</h3>
-                            </div>
-
-                            <h3 className="text-3xl text-blue-900    font-extrabold w-5/12 relative bottom-10  mx-auto" > Votre système de login ?</h3>
+                    <div className=" bg-blue-900 mx-auto relative bottom-20 grid place-items-center  " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
+                    <h3 className="font-bold text-white text-4xl mr-1 " >4/7</h3>
+                </div>
 
 
 
-                            <div className="  w-10/12 flex mx-auto  bottom-10 justify-around  ">
+
+                            <div className="flex justify-around w-full text-blue-900">
+                        <IoArrowBackCircleOutline onClick={previous}  className=" text-blue-600 hover:text-blue-900 text-5xl mb-5 ml-5 cursor-pointer " />
+                        <h3 className="md:text-3xl text-blue-900     font-extrabold w-7/12 relative lg:bottom-24 mx-auto" > Votre système de login ?</h3>
+
+                        <IoArrowForwardCircleOutline onClick={movOn}  className=" text-blue-600 hover:text-blue-900 text-5xl mb-5 mr-5 cursor-pointer " />
+                         
+                            
+                        </div>
+
+                            <div className="  w-10/12 flex mx-auto  bottom-10 justify-around mb-20  ">
 
 
 
-                                <div className="flex justify-around w-full relative bottom-10 ">
+                                <div className="flex justify-around w-full  ">
 
                                     <Fade duration={1000} bottom  >
-                                        <div className={` w-44 h-44  rounded-3xl ${bg1} shadow-lg grid place-items-center cursor-pointer  group hover:bg-blue-900 transition ease-out duration-500 `} onClick={changeColor1} >
+                                        <div className={` w-40 h-40  mr-5 rounded-3xl ${bg1} shadow-lg grid place-items-center cursor-pointer  group hover:bg-blue-900 transition ease-out duration-500 `} onClick={changeColor1} >
 
                                             <h3 className={` ${txt1} text-xl font-bold  group-hover:text-white `}> Réseaux <br/> sociaux  <br/> + e-mail</h3>
 
@@ -166,14 +174,14 @@ const Step4 = ({ setForm, formData, navigation , service }) => {
 
 
                                     <Fade duration={1000} bottom delay={600} >
-                                        <div className={` w-44 h-44  rounded-3xl ${bg2} shadow-lg grid place-items-center cursor-pointer  group hover:bg-blue-900 transition ease-out duration-500 `} onClick={changeColor2}>
+                                        <div className={` w-40 h-40 mr-5  rounded-3xl ${bg2} shadow-lg grid place-items-center cursor-pointer  group hover:bg-blue-900 transition ease-out duration-500 `} onClick={changeColor2}>
                                             <h3 className={` ${txt2} text-xl font-bold  group-hover:text-white `} > e-mail</h3>
                                         </div>
 
                                     </Fade>
 
                                     <Fade duration={1000} bottom delay={600} >
-                                        <div className={` w-44 h-44  rounded-3xl ${bg3} shadow-lg grid place-items-center cursor-pointer  group hover:bg-blue-900 transition ease-out duration-500 `} onClick={changeColor3}>
+                                        <div className={` w-40 h-40  rounded-3xl ${bg3} shadow-lg grid place-items-center cursor-pointer  group hover:bg-blue-900 transition ease-out duration-500 `} onClick={changeColor3}>
                                             <h3 className={` ${txt3} text-xl font-bold  text-center group-hover:text-white `} > Sans
                                             </h3>
                                         </div>
@@ -187,15 +195,7 @@ const Step4 = ({ setForm, formData, navigation , service }) => {
 
                             </div>
 
-                            <div className="flex justify-around mx-auto w-8/12 mt-5  ">
-
-                                <button className="bg-blue-900 border-2 px-10 w-4/12  py-2 text-white  mr-5  rounded-3xl hover:bg-transparent hover:text-blue-900 hover:border-blue-900 flex justify-around transition ease-out duration-500" onClick={movOn} >
-                                    <h3 className="font-bold  text-xl    " >   Next Step </h3>
-                                    <ChevronRightIcon className=" h-5 w-5 ml-3 mt-1 font-bold text-3xl " />
-
-
-                                </button>
-                            </div>
+          
                     </>
 
                 )

@@ -79,7 +79,7 @@ function Form({service}) {
 
 
 
-            <h3 className=" text-white text-xl font-bold mx-auto w-5/12 mt-5   ">Calculez votre budget  en 7 clics</h3>
+            <h3 className=" text-white text-xl font-bold mx-auto w-7/12 mt-5   ">Calculez votre budget  en 7 clics</h3>
           
                 <div className=" bg-white rounded-lg h-4/5 mb-2 mt-14  w-11/12 mx-auto   ">
                     {
