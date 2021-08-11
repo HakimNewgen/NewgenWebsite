@@ -5,6 +5,7 @@ import Latest from "../components/Latest"
 import TeamCard from "../components/TeamCard"
 import Head from 'next/head'
 import Navbar from "../components/Navbar"
+import {HiOutlineChatAlt} from 'react-icons/hi'
 function company() {
     return (
         <div>
@@ -31,10 +32,19 @@ function company() {
                    
                 </div>
 
+                
+
                 <div className="  hidden lg:flex relative   z-0 mr-32 ">
                     <Image src="https://i.ibb.co/4T7Pb91/002872-REA02.jpg" className="  rounded-lg" width={500} height={500} />
                 </div>
                 
+
+                
+                <div className=" fixed top-[87%] mr-5 z-40 md:left[83%] left-[85%] lg:left-[95%]  cursor-pointer  bg-blue-600 hover:bg-blue-900 rounded-full h-16 w-16 grid place-items-center text-4xl m  text-white  ">
+                <a href="https://newgen.ma/devis_web"> <HiOutlineChatAlt  className="animate-bounce" /></a>
+            
+           
+              </div>
 
 
                  
@@ -65,17 +75,17 @@ function company() {
                 </div>
             </div>
 
-            <h3 className="font-bold text-blue-900 text-5xl mb-20 mt-32 mx-auto w-10/12 " >Notre Equipe</h3>
+            <h3 className="font-bold text-blue-900 text-5xl mb-20 mt-32 mx-auto w-10/12  lg:px-20 " >Notre Equipe</h3>
 
             
-               <div className="md:flex md:justify-end mx-auto mb-20 md:w-full md:relative md:left-32 lg:left-44 lg:w-10/12  w-8/12   ">
-                      <div className=" w-full ">
+               <div className="md:flex md:justify-end mx-auto mb-20 md:w-full md:relative md:left-32  lg:w-10/12  w-8/12   ">
+                      <div className=" w-11/12 md:mr-10 ">
                       <TeamCard  name="Hajar Etakafi" post=" responsable du développement commercial" desc="Hajar Etakafi, passionnée par les ventes et par une négociation naturelle. Compétente dans la vente de logiciels, la gestion des ventes, les opérations de marketing et la constitution d'équipes.
                     Elle dirige la croissance de nos canaux de commercialisation."  image="https://i.ibb.co/jTgF5Ng/HAJAR-PHOTO.jpg"/>
                     
                       </div>
 
-                      <div className=" w-full ">
+                      <div className=" w-11/12  ">
                       <TeamCard name="Abdelhakim Jebabra"  image="https://ajebabra.netlify.app/Me.jpg"  post="Devéloppeur Web " desc="Étudiant en informatique a EMI (Ecole Mohammadia des ingénieurs). Je suis développeur web et mes technologies préférées sont Next js  et Express js !" />
 
                       </div>

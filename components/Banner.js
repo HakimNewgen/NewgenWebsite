@@ -18,9 +18,12 @@ import { AiOutlineCloseCircle} from 'react-icons/ai';
 import Bounce from 'react-reveal/Bounce';
 
 import Fade from 'react-reveal/Fade';
-import Particles from 'react-particles-js';
 
-function Banner({source , size , text , text1, font , navbar , color , height , clip }) {
+
+import Particles from 'react-particles-js';
+import {HiOutlineChatAlt} from 'react-icons/hi'
+
+function Banner({source , size , devisbtn, text , text1, font , navbar , color , height , clip }) {
     console.log(source)
      console.log(font)
     const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -114,18 +117,34 @@ function Banner({source , size , text , text1, font , navbar , color , height , 
 
 
             <div className="flex ml-20 mt-40 z-40 xl:ml-44">
-                <a href='#service' className="bg-white border-2 px-4  py-2 text-blue-900 font-bold mr-5 rounded-lg hover:bg-transparent hover:text-white hover:border-white " onClick={handleClick} >COMMENCER</a>
+               { devisbtn?(
+                   <></>
+
+               ):(
+                <>
+                   <a href='#service' className="bg-white border-2 px-4  py-2 text-blue-900 font-bold mr-5 rounded-lg hover:bg-transparent hover:text-white hover:border-white " onClick={handleClick} >COMMENCER</a>
 
             
-                <button onClick={openModal2} className="border-2 border-white px-4  py-2 text-white font-bold  rounded-lg  hover:bg-blue-900 ">Demander un devis</button>
-             
+                   <button onClick={openModal2} className="border-2 border-white px-4  py-2 text-white font-bold  rounded-lg  hover:bg-blue-900 ">Demander un devis</button>
+                   </>
+
+               )
+                  
+
+                   
+             }
                 
-            </div>
+            </div>  
+            
+            
 
             <div className="w-screen  grid place-items-center text-5xl mt-40 animate-bounce text-white xl:relative xl:bottom-20">
                <AiOutlineDown className={`${color}`} onClick={handleClick} href="#values" />
               
             </div>
+
+                
+           
         
 
            

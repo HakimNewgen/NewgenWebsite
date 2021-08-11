@@ -10,7 +10,7 @@ import Latest from "../components/Latest";
 import Footer from "../components/Footer";
 import Fade from 'react-reveal/Fade';
 import Navbar from "../components/Navbar";
-
+import {HiOutlineChatAlt} from 'react-icons/hi'
 import Head from 'next/head'
 
 export default function Home() {
@@ -28,14 +28,22 @@ export default function Home() {
 
      <Navbar  />
 
-      
+     
       <Banner source="https://i.ibb.co/5WR8Nnm/3-D-earth-graphic-symbolizing-global-trade-vector-illustration.jpg" text="NEW VISION " text1="NEW FUTURE" font={" lg:text-6xl text-4xl"} size="cover" color={"text-white"} height="lg:h-xxxl" clip="banner" />
 
      
     
       <div id="values">
              <Values />
+             
+      
       </div>
+
+      <div className=" fixed top-[87%] mr-5 z-40 md:left[83%] left-[85%] lg:left-[95%]  cursor-pointer  bg-blue-600 hover:bg-blue-900 rounded-full h-16 w-16 grid place-items-center text-4xl m  text-white  ">
+          <a href="https://newgen.ma/devis_web"> <HiOutlineChatAlt  className="animate-bounce" /></a>
+      
+     
+        </div>
             
               <br />
       <br />

@@ -3,6 +3,7 @@ import Image from "next/image"
 import DigitalService from "../components/DigitalService";
 import Latest from "../components/Latest";
 import Head from 'next/head'
+import {HiOutlineChatAlt} from 'react-icons/hi'
 
 function digital_marketing() {
     return (
@@ -23,6 +24,14 @@ une base de fans dédiés à travers un Marketing organique" />
                
              
             </div>
+
+            <div className=" fixed top-[87%] mr-5 z-40 md:left[83%] left-[85%] lg:left-[95%]  cursor-pointer  bg-blue-600 hover:bg-blue-900 rounded-full h-16 w-16 grid place-items-center text-4xl m  text-white  ">
+            <a href="https://newgen.ma/devis_web"> <HiOutlineChatAlt  className="animate-bounce" /></a>
+        
+       
+          </div>
+
+
 
 
 

@@ -8,6 +8,7 @@ import React, { useRef , useState , useEffect } from 'react'
 import Fade from 'react-reveal/Fade';
 
 import { CgClose  } from 'react-icons/cg';
+
 function Navbar({background , option}) {
 
     const navlinks = useRef(null)
@@ -59,6 +60,7 @@ function Navbar({background , option}) {
        setdisplay(!display)
     }
     return (
+        
         <div className="sticky  z-40 top-0" >
             
 
@@ -159,6 +161,9 @@ function Navbar({background , option}) {
                     <hr className={` relative  w-11/12 mx-auto  border-${navbackground}  `}/>
                 </div>
             </div>
+            
+
+          
 
           
            

@@ -9,14 +9,16 @@ function devis() {
         <div className="w-screen" >
         <Head>
     <title>Newgen Intelligence</title>
-    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, user-scalable=no"/>
 
     <link rel="icon" href="https://i.ibb.co/YZv3X6F/1613491158332.jpg" />
   </Head>
-        <div className=" bg-center bg-no-repeat   w-screen  z-0 bg-opacity-0 mx-auto text-center  "
-          style={{ background: `url("https://i.ibb.co/V3GBNh0/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner-1258-523.jpg") `, backgroundSize: `cover`, backgroundRepeat: 'no-repeat' , height:'500px' }}>
+       <Navbar  />
+       <Banner devisbtn="yes" source="https://i.ibb.co/V3GBNh0/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner-1258-523.jpg"  text="Trouver une offre qui repond le plus à vos besoins " font={"text-3xl"}  size="cover" color={"text-blue-900"} />
 
-          <Navbar  />
+        <div className=" bg-center bg-no-repeat   w-screen  z-0 bg-opacity-0 mx-auto text-center  ">
+         
+         
 
           
 

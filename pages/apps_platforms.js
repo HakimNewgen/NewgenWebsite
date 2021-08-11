@@ -13,6 +13,7 @@ import Footer from "../components/Footer";
 import Head from 'next/head'
 import Image  from "next/image";
 import Navbar from "../components/Navbar";
+import {HiOutlineChatAlt} from 'react-icons/hi'
 
 function apps_platforms() {
     return (
@@ -107,7 +108,12 @@ function apps_platforms() {
              
                 
             </div>
-
+            <div className=" fixed top-[87%] mr-5 z-40 md:left[83%] left-[85%] lg:left-[95%]  cursor-pointer  bg-blue-600 hover:bg-blue-900 rounded-full h-16 w-16 grid place-items-center text-4xl m  text-white  ">
+            <a href="https://newgen.ma/devis_web"> <HiOutlineChatAlt  className="animate-bounce" /></a>
+        
+       
+          </div>
+              
 
             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Developpement Mobile</h3>
 

@@ -42,9 +42,10 @@ const Step6 = ({ setForm, formData, navigation }) => {
         <div className=" bg-gray-50 h-full  grid place-items-center ">
 
 
-            <div className=" hidden bg-blue-900 mx-auto relative bottom-16 lg:grid place-items-center   " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
-                <h3 className="font-bold text-white text-4xl mr-1 " >6/7</h3>
-            </div>
+        <div className=" bg-blue-900 mx-auto relative bottom-10 grid place-items-center  " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
+        <h3 className="font-bold text-white text-4xl mr-1 " >6/7</h3>
+    </div>
+
 
             
 

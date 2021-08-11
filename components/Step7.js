@@ -71,9 +71,10 @@ const Step7 = ({ setForm, formData, navigation    }) => {
 
     return (
         <div className="grid place-items-center ">
-            <div className=" hidden bg-blue-900 mx-auto relative bottom-10 lg:grid place-items-center  " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
-                <h3 className="font-bold text-white text-4xl mr-1 " >7/7</h3>
-            </div>
+        <div className=" bg-blue-900 mx-auto relative bottom-10 grid place-items-center  " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
+        <h3 className="font-bold text-white text-4xl mr-1 " >7/7</h3>
+    </div>
+
 
             <h3 className="lg:text-3xl text-blue-900    font-extrabold w-5/12  mx-auto" >  </h3>
 

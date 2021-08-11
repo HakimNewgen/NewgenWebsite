@@ -46,7 +46,7 @@ const Details = ({article})=>{
                     <h1 className="text-blue-900 font-bold mt-40 text-5xl text-center" > {article.title} </h1>
                     <p className="mt-7 text-gray-400 text-md">{new Date(article.createdAt).toLocaleDateString()}</p>
                     <p className="mt-7 mb-28 text-gray-500 text-md">{article.subject} | By {article.author} </p>
-                <Image src={`http://localhost:5000/public/uploads/images/${article.image}`} width={1000} height={700} />
+                <Image src={`https://newgen-admin.herokuapp.com/public/uploads/images/${article.image}`} width={1000} height={700} />
 
 
 

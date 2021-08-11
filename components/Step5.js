@@ -41,9 +41,10 @@ const Step5 = ({ setForm, formData, navigation , service }) => {
             { 
                service =="web"?(
                    <>
-                      <div className=" hidden bg-blue-900 w-screen mx-auto relative bottom-16 lg:grid place-items-center   " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
-                    <h3 className="font-bold text-white text-4xl mr-1   " >5/7</h3>
-                </div>
+                   <div className=" bg-blue-900 mx-auto relative bottom-10 grid place-items-center  " style={{ height: '100px', width: '100px', borderRadius: '50%' }} >
+                        <h3 className="font-bold text-white text-4xl mr-1 " >5/7</h3>
+                    </div>
+
 
             <div className="flex justify-around w-full text-blue-900">
                         <IoArrowBackCircleOutline onClick={previous}  className=" text-blue-600 hover:text-blue-900 text-5xl mb-5 ml-5 cursor-pointer " />
@@ -54,7 +55,7 @@ const Step5 = ({ setForm, formData, navigation , service }) => {
                         </div>
 
          
-               <div className=" grid place-items-center mt-20  w-full relative lg:bottom-14   ">
+               <div className=" grid place-items-center mt-20 mb-10  w-full relative lg:bottom-14   ">
                             <div className="flex w-10/12  justify-between mb-24 ">
                             {categorysection.slice(0,3).map((categorylabel, i) => (
                                 

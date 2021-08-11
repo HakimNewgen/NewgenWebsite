@@ -21,13 +21,20 @@ function Form({service}) {
 
     const [modalIsOpen1, setIsOpen1] = useState(true);
 
-    const [name, setName] = useState("defaul")
-    const [email, setemail] = useState("deafil")
+    const [name, setName] = useState("")
+    const [email, setemail] = useState("")
 
     const showdata = ()=>{
         console.log(name , email)
 
+        if(name && email ){
         setIsOpen1(false)
+
+
+        }else{
+            alert("Introduire vos données avant de continuer ")
+        }
+
     }
  
 
@@ -94,7 +101,13 @@ function Form({service}) {
                 <Bounce left duration={2000} delay={100}>
                     <div className="flex w-full justify-between px-2">
                         <h2 className="text-3xl  text-blue-900 font-bold ml-10 mt-3" > A propos de vous ? </h2>
-                        <AiOutlineCloseCircle onClick={() => { setIsOpen1(false) }} className="text-blue-900 text-4xl cursor-pointer " />
+                        <AiOutlineCloseCircle onClick={() => {  if(name && email ){
+                            setIsOpen1(false)
+                    
+                    
+                            }else{
+                                alert("Introduire vos données avant de continuer ")
+                            } }} className="text-blue-900 text-4xl cursor-pointer " />
                     </div>
 
                     <div className="flex mt-10 ml-10 ">

@@ -5,14 +5,22 @@ import {
 import { FaUserTie } from 'react-icons/fa';
 import { FaHandshake } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
-
+import {HiOutlineChatAlt} from 'react-icons/hi'
+import Link from 'next/link';
 
 function Values() {
     return (
-        <div>
-            
+        <div className="" >
+
+      
+       
 
             <div className=" mx-auto w-8/12 md:flex   md:w-11/12  justify-around  lg:relative   lg:bottom-40  ">
+
+         
+        
+
+            
 
               <Fade duration={2000} bottom  >
                     <div className="w-72 p-5 bg-white   rounded-xl   shadow-lg  border-b-4  border-blue-900 ">
@@ -63,7 +71,8 @@ function Values() {
 
               
             </div>
-            
+
+          
         </div>
     )
 }
