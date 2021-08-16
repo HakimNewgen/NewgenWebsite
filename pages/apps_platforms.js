@@ -25,7 +25,7 @@ function apps_platforms() {
   </Head>
 
   <Navbar  />
-            <Banner source="https://i.ibb.co/Nn2xn0F/Application-Development-Banner-code.png" text="Solutions numériques avec une approche de développement centrée sur lutilisateur" font={"text-3xl"} size="cover"  color={"text-white"} />
+            <Banner source="https://i.ibb.co/Nn2xn0F/Application-Development-Banner-code.png" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" font={"text-3xl"} size="cover"  color={"text-white"} />
 
 
 
@@ -39,7 +39,7 @@ function apps_platforms() {
                       </Fade>
                       
                         <span className={styles.process__title}>Search</span>
-                        <span className={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
+                        <span className={styles.process__subtitle}>On lance une recherche sur l’ensemble des techniques consistant à positionner favorablement votre site web , application mobile…</span>
                     </li>
 
                     <li className={styles.process__item}>
@@ -48,7 +48,7 @@ function apps_platforms() {
                      </Fade>
                       
                         <span className={styles.process__title}>Wireframing</span>
-                        <span className={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
+                        <span className={styles.process__subtitle}> On personnalise votre site web ou application mobile,  sous forme d’une maquette fonctionnelle avec un graphisme simplifié. </span>
                     </li>
 
                     <li className={styles.process__item}>
@@ -57,7 +57,8 @@ function apps_platforms() {
                        </Fade>
                       
                         <span className={styles.process__title}>Prototyping</span>
-                        <span className={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
+                        <span className={styles.process__subtitle}>On se focalise sur le fond en testant les fonctionnalités à l’aide d’Adobe XD , Axure..
+                        </span>
                     </li>
 
                     <li className={styles.process__item}>
@@ -66,7 +67,8 @@ function apps_platforms() {
                      </Fade>
                       
                         <span className={styles.process__title}>Optimization</span>
-                        <span className={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
+                        <span className={styles.process__subtitle}>On optimise le contenu visible et  non visible d’une page web pour favoriser l’obtention d’une bonne position sur les pages de résultats des moteurs de recherche à travers le référencement naturel.
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -75,16 +77,10 @@ function apps_platforms() {
 
 
             <Fade right duration={2000}>
-                <UIUX Tcolor="from-yellow-400" icon="https://i.ibb.co/3hxYHsb/Capture.png" title="Développement de lexpérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients " Bcolor="to-pink-400" side="  lg:right-72" ring="ring-yellow-200" />
+                <UIUX Tcolor="from-blue-900" icon="https://i.ibb.co/3hxYHsb/Capture.png" title="Développement de lexpérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients " Bcolor="to-purple-500" side="  lg:right-72" ring="ring-blue-200" />
             </Fade>
 
-            <Fade left duration={2000}>
-                <UIUX Tcolor="from-blue-400" icon="https://i.ibb.co/2YXYX3X/Capturer.png" Bcolor="to-purple-500" side="lg:left-72" ring="ring-blue-200" title="Développement de lexpérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients." />
-            </Fade>
-
-            <Fade right duration={2000}>
-                <UIUX Tcolor="from-indigo-400" icon="https://i.ibb.co/YN9rJXq/Capture.png"  Bcolor="to-green-400" side="lg:right-72" ring="ring-indigo-200" title="Développement de lexpérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients " />
-            </Fade>
+      
 
             <h3 className="font-bold text-blue-900 text-4xl  mt-52 mb-24 mx-auto w-9/12 " >Outils et technologies UI/UX que nous utilisons</h3>
 

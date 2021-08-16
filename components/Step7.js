@@ -111,7 +111,7 @@ const Step7 = ({ setForm, formData, navigation    }) => {
 
                     <Fade duration={1000} bottom delay={600} >
                         <div className={` w-32 h-32  lg:w-44  rounded-3xl ${bg3} shadow-lg grid place-items-center cursor-pointer  group hover:bg-blue-900 transition ease-out duration-500 `} onClick={changeColor3}>
-                            <h3 className={` ${txt3} text-xl font-bold  group-hover:text-white `} > &gt;3</h3>
+                            <h3 className={` ${txt3} text-xl font-bold  group-hover:text-white `} > &gt;6</h3>
                         </div>
 
                     </Fade>

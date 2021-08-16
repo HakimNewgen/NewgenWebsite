@@ -4,6 +4,7 @@ import DigitalService from "../components/DigitalService";
 import Latest from "../components/Latest";
 import Head from 'next/head'
 import {HiOutlineChatAlt} from 'react-icons/hi'
+import Navbar from "../components/Navbar";
 
 function digital_marketing() {
     return (
@@ -12,6 +13,7 @@ function digital_marketing() {
     <title>Newgen Intelligence</title>
     <link rel="icon" href="https://i.ibb.co/YZv3X6F/1613491158332.jpg" />
         </Head>
+        <Navbar  />
         <Banner source="https://i.ibb.co/5rYCQ9M/Cloud-banner.png" font="text-3xl" color="text-white" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" size="cover"  />
 
             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Comment pouvons-nous vous aider ?</h3>
