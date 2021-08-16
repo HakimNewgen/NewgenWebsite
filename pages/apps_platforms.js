@@ -77,7 +77,7 @@ function apps_platforms() {
 
 
             <Fade right duration={2000}>
-                <UIUX Tcolor="from-blue-900" icon="https://i.ibb.co/3hxYHsb/Capture.png" title="Développement de lexpérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients " Bcolor="to-purple-500" side="  lg:right-72" ring="ring-blue-200" />
+                <UIUX Tcolor="from-blue-900" icon="https://i.ibb.co/3hxYHsb/Capture.png" title="Développement de l'expérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients " Bcolor="to-purple-500" side="  lg:right-72" ring="ring-blue-200" />
             </Fade>
 
       
