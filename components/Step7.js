@@ -35,7 +35,7 @@ const Step7 = ({ setForm, formData, navigation    }) => {
         setbg3('')
         settext3('text-gray-500')
 
-        settypedev("Front end")
+        settypedev("1-3")
 
     }
 
@@ -46,7 +46,7 @@ const Step7 = ({ setForm, formData, navigation    }) => {
         settext1('text-gray-500')
         setbg3('')
         settext3('text-gray-500')
-        settypedev("Back end")
+        settypedev("3-6")
     }
 
     const changeColor3 = () => {
@@ -56,7 +56,7 @@ const Step7 = ({ setForm, formData, navigation    }) => {
         settext2('text-gray-500')
         setbg1('')
         settext1('text-gray-500')
-        settypedev("Full Stack")
+        settypedev(">6")
     }
 
     const moveOn = ()=>{
