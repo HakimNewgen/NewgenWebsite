@@ -27,12 +27,13 @@ function Form({service}) {
     const showdata = ()=>{
         console.log(name , email)
 
-        if(name && email ){
+
+        if(name && email && validateEmail(email) ){
         setIsOpen1(false)
 
 
         }else{
-            alert("Introduire vos données avant de continuer ")
+            alert("Introduire des  données valide  avant de continuer ")
         }
 
     }
@@ -57,6 +58,11 @@ function Form({service}) {
 
     const openModal2 = () => {
         setIsOpen2(true)
+    }
+
+    function validateEmail(email) {
+        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
     }
 
 
@@ -100,13 +106,11 @@ function Form({service}) {
                 <Bounce left duration={2000} delay={100}>
                     <div className="flex w-full justify-between px-2">
                         <h2 className="text-3xl  text-blue-900 font-bold ml-10 mt-3" > A propos de vous ? </h2>
-                        <AiOutlineCloseCircle onClick={() => {  if(name && email ){
+                        <AiOutlineCloseCircle onClick={() => {  
                             setIsOpen1(false)
                     
                     
-                            }else{
-                                alert("Introduire vos données avant de continuer ")
-                            } }} className="text-blue-900 text-4xl cursor-pointer " />
+                             }} className="text-blue-900 text-4xl cursor-pointer " />
                     </div>
 
                     <div className="flex mt-10 ml-10 ">
@@ -114,7 +118,8 @@ function Form({service}) {
                     </div>
 
                     <div className="flex mt-10 ml-10 ">
-                        <p>Contacter moi sur    </p> <input type="email" placeholder="Your Email" onChange={getemail} className=" ml-5 mr-5 w-5/12 border-b-2 outline-none border-gray-400  text-blue-900 text-lg " />
+                        <p>Contacter moi sur    </p> <input type="email" id="email"
+                        pattern=".+@globex\.com" size="30" required  placeholder="Your Email" onChange={getemail} className=" ml-5 mr-5 w-5/12 border-b-2 outline-none border-gray-400  text-blue-900 text-lg " />
                     </div>
 
                     <div className="mx-auto w-3/12 mt-14">

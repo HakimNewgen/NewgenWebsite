@@ -89,16 +89,16 @@ function apps_platforms() {
             <Fade left duration={1000} delay={500}>
                     <div className="md:flex   mx-auto justify-around md:w-11/12 mb-20">
 
-                        <Tools icon="https://i.ibb.co/Pzvc12n/Capture.png" title="Adobe Xd" />
+                        <Tools icon="https://i.ibb.co/yhY5k7z/Capture-removebg-preview-6.png" title="Adobe Xd" />
                         <br className="md:hidden" />
-                        <Tools icon="https://i.ibb.co/9ZFK5cQ/Capture.png" title="Figma" />
+                        <Tools icon="https://i.ibb.co/P1WhDw1/Capture-removebg-preview-7.png" title="Figma" />
                     </div>
             </Fade>
                 <Fade right duration={1000} delay={500}>
                     <div className="md:flex   mx-auto justify-around md:w-11/12 mb-20">
-                        <Tools icon="https://i.ibb.co/Bq34Nhr/Capture.png" title="Axure" />
+                        <Tools icon="https://i.ibb.co/7bNdwsk/Capture-removebg-preview-8.png" title="Axure" />
                         <br className="md:hidden" />
-                        <Tools icon="https://i.ibb.co/9tKC98f/Capture.png" title="Adobe Photoshop" />
+                        <Tools icon="https://i.ibb.co/QML4tCD/Capture-removebg-preview-9.png" title="Adobe Photoshop" />
                     </div>
               </Fade>
              
