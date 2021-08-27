@@ -36,7 +36,7 @@ const Slider = () => {
                     
                 <SwiperSlide className=" w-full ">
                     <div className=" ml-28">
-                        <h3 className="relative top-52 font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Apps & Platforms</h3>
+                        <h3 className=" hidden md:block relative top-52 font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Apps & Platforms</h3>
 
                         <div className="  mr-20 md:flex">
 
@@ -62,7 +62,7 @@ const Slider = () => {
 
                 <SwiperSlide className=" w-full ">
                     <div className=" ml-28">
-                        <h3 className="relative top-52 font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Cloud services</h3>
+                        <h3 className=" hidden md:block relative top-52 font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Cloud services</h3>
 
                         <div className="mr-20 md:flex">
 
@@ -88,7 +88,7 @@ const Slider = () => {
                 </SwiperSlide>
                 <SwiperSlide className=" w-full  h-5/6 ">
                     <div className=" ml-28">
-                        <h3 className="relative top-52 font-bold text-blue-900 text-2xl  mt-7 mb-20  " >Digital marketing</h3>
+                        <h3 className=" hidden md:block relative top-52 font-bold text-blue-900 text-2xl  mt-7 mb-20  " >Digital marketing</h3>
 
                         <div className="mr-20 md:flex">
                           <div className="">
@@ -117,7 +117,7 @@ const Slider = () => {
                 <SwiperSlide className=" w-full py-5 ">
                     <div className=" ml-28">
 
-                        <h3 className="relative top-52 font-bold text-blue-900 text-2xl  mt-7 mb-20  " >Data Analytics</h3>
+                        <h3 className=" hidden md:block relative top-52 font-bold text-blue-900 text-2xl  mt-7 mb-20  " >Data Analytics</h3>
                           
 
                        
