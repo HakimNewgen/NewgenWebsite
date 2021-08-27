@@ -14,6 +14,7 @@ import Head from 'next/head'
 import Image  from "next/image";
 import Navbar from "../components/Navbar";
 import {HiOutlineChatAlt} from 'react-icons/hi'
+import Process from "../components/Process";
 
 function apps_platforms() {
     return (
@@ -80,7 +81,13 @@ function apps_platforms() {
                 <UIUX Tcolor="from-blue-900" icon="https://i.ibb.co/3hxYHsb/Capture.png" title="Développement de l'expérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients " Bcolor="to-purple-500" side="  lg:right-72" ring="ring-blue-200" />
             </Fade>
 
+
+
       
+
+            <h3 className="font-bold text-blue-900 text-4xl  mt-52 mb-24 mx-auto w-9/12 " >Processus SDLC</h3>
+
+              <Process />
 
             <h3 className="font-bold text-blue-900 text-4xl  mt-52 mb-24 mx-auto w-9/12 " >Outils et technologies UI/UX que nous utilisons</h3>
 
