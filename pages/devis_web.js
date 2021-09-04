@@ -3,6 +3,7 @@ import MultiStep from "../components/MultiStep";
 import Banner from "../components/Banner";
 import Form from "../components/Form";
 import Head from 'next/head'
+import Footer from "../components/Footer";
 
 function devis() {
     return (
@@ -39,6 +40,9 @@ function devis() {
           <div className=" grid  place-items-center     relative bottom-44 mt-24   w-screen mx-auto  h-screen ">
                 <Form service="web" />
           </div>
+
+
+          <Footer/>
           
             
         </div>

@@ -77,6 +77,8 @@ function devis() {
                 <Form  />
           </div>
           
+
+          <Footer/>
             
         </div>
     )
