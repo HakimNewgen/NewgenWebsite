@@ -29,8 +29,12 @@ function apps_platforms() {
             <Banner source="https://i.ibb.co/Nn2xn0F/Application-Development-Banner-code.png" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" font={"text-3xl"} size="cover"  color={"text-white"} />
 
 
+             
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " > Méthode de Developement</h3>
+             <Process />
 
-            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Notre Approche DInnovation</h3>
+
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Notre Approche D'Innovation</h3>
 
             <div className=" w-10/12 mx-auto cursor-pointer ">
                 <ul className={styles.process}>
@@ -39,7 +43,7 @@ function apps_platforms() {
                             <span className={styles.process__number}>1</span>
                       </Fade>
                       
-                        <span className={styles.process__title}>Search</span>
+                        <span className={styles.process__title}>DÉFINIR</span>
                         <span className={styles.process__subtitle}>On lance une recherche sur l’ensemble des techniques consistant à positionner favorablement votre site web , application mobile…</span>
                     </li>
 
@@ -48,7 +52,7 @@ function apps_platforms() {
                             <span className={styles.process__number}>2</span>
                      </Fade>
                       
-                        <span className={styles.process__title}>Wireframing</span>
+                        <span className={styles.process__title}>EXPÉRIMENTER</span>
                         <span className={styles.process__subtitle}> On personnalise votre site web ou application mobile,  sous forme d’une maquette fonctionnelle avec un graphisme simplifié. </span>
                     </li>
 
@@ -57,7 +61,7 @@ function apps_platforms() {
                             <span className={styles.process__number}>3</span>
                        </Fade>
                       
-                        <span className={styles.process__title}>Prototyping</span>
+                        <span className={styles.process__title}>MESURER</span>
                         <span className={styles.process__subtitle}>On se focalise sur le fond en testant les fonctionnalités à l’aide d’Adobe XD , Axure..
                         </span>
                     </li>
@@ -67,7 +71,7 @@ function apps_platforms() {
                             <span className={styles.process__number}>4</span>
                      </Fade>
                       
-                        <span className={styles.process__title}>Optimization</span>
+                        <span className={styles.process__title}>APPRENDRE</span>
                         <span className={styles.process__subtitle}>On optimise le contenu visible et  non visible d’une page web pour favoriser l’obtention d’une bonne position sur les pages de résultats des moteurs de recherche à travers le référencement naturel.
                         </span>
                     </li>
@@ -85,9 +89,7 @@ function apps_platforms() {
 
       
 
-            <h3 className="font-bold text-blue-900 text-4xl  mt-52 mb-24 mx-auto w-9/12 " >Processus SDLC</h3>
-
-              <Process />
+            
 
             <h3 className="font-bold text-blue-900 text-4xl  mt-52 mb-24 mx-auto w-9/12 " >Outils et technologies UI/UX que nous utilisons</h3>
 
