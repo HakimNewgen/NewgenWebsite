@@ -13,8 +13,7 @@ import {
 import { AiOutlineDown } from 'react-icons/ai';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 import Head from 'next/head'
-
-
+import Footer from "../components/Footer"
 import Bounce from 'react-reveal/Bounce';
 
 import Fade from 'react-reveal/Fade';
