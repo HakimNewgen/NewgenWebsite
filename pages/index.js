@@ -43,13 +43,13 @@ export default function Home() {
        <div className=" fixed top-[0%] mr-5 z-40  left-[98%]   cursor-pointer  bg-blue-600 hover:bg-blue-900   h-screen w-10 grid place-items-center text-3xl    text-white  ">
        
 
-       <Fade right duration={2000} >
+      
        <div className=" fixed top-[40%] mr-5 z-40  left-[94%] lg:left-[97%]  cursor-pointer  bg-blue-600 hover:bg-blue-900 rounded-full  h-44 w-10 grid place-items-center text-2xl    text-white  ">
            <a href="https://newgen.ma/devis_web"  className="-rotate-90 grid place-items-center relative right-9  " > Démarrer  </a>
        
       
          </div>
-         </Fade>
+  
          </div>
  
 
